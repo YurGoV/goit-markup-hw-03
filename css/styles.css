@@ -38,24 +38,38 @@ img {
 }
 
 
-.container {
+.page-header {
     display: flex;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    justify-content: center;
+
+    /* border-bottom: 1px solid #ECECEC; */
+}
+
+.page-main {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    /* display: flex; */
 	width: 1200px;
 	padding-left: 15px;
 	padding-right: 15px;
-	margin-left: auto;
-	margin-right: auto;
+	/* margin-left: auto;
+	margin-right: auto; */
 	/* outline: 1px solid red; */
 }
 .header-container {
 	display: flex;
 	align-items: center;
     /* outline: 1px solid red; */
-	margin-left: auto;
-	margin-right: auto;
-    width: 1600px;
-    padding: 25px 215px;
-    border-bottom: 1px solid #ECECEC;
+	/* margin-left: auto;
+	margin-right: auto; */
+    /* width: 1600px; */
+    /* padding: 25px 215px; */
+
 
 }
 
@@ -147,12 +161,16 @@ img {
     letter-spacing: 0.02em;
 }
 
+.solution {
+    display: flex;
+    padding: 200px 0px;
+    /* justify-content: center; */
+}
 
 .solution-block {
     display: flex;
     flex-direction: column;
-    width: 1600px;
-    padding: 200px 450px;
+    /* width: 1600px; */
     align-items: center;
     justify-content: stretch;
     margin-left: auto;
@@ -182,7 +200,7 @@ img {
     position: relative;
 }
 
-.solution-block,
+.solution,
 .footer {
     background-color: var(--header-footer);
 }
@@ -195,8 +213,9 @@ img {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     margin-top: 0px;
-    margin-bottom: 30px;
+    padding-bottom: 30px;
     color: #FFFFFF;
+    width: 695px;
 }
 
 
@@ -229,14 +248,20 @@ img {
 }
 
 .body-sections{
-    margin-top: 95px;
+    /* margin-top: 95px; */
+    /* justify-content: center; */
+    padding: 95px 0px;
+    margin-left: auto;
+	margin-right: auto;
 }
 
 .difference-list {
     display: flex;
-    padding: 0px;
-    margin-bottom: 0px;
+    /* padding-bottom: 0px; */
+    /* margin-bottom: 0px; */
     justify-content: space-between;
+    margin-left: auto;
+	margin-right: auto;
 }
 
 .difference-list-items {
@@ -264,20 +289,24 @@ img {
 .whatwedo {
     display: flex;
     flex-direction: column;
+    /* position: relative; */
+    margin-left: auto;
+	margin-right: auto;
+    margin-top: 95px;
 }
 
 .whatwedo-list {
     display: flex;
     justify-content: space-between;
-    margin-top: 50px;
-    margin-bottom: 0px;
+    /* margin-top: 50px;
+    margin-bottom: 0px; */
 }
 
 .command {
     display: flex;
     flex-direction: column;
-    width: 1600px;
-    padding: 95px 0px;
+    /* width: 1600px; */
+    /* padding: 95px 0px; */
     align-items: center;
     justify-content: stretch;
     margin-left: auto;
@@ -355,9 +384,9 @@ img {
 .footer {
 display: flex;
 flex-direction: column;
-width: 1600px;
-margin-left: auto;
-margin-right: auto;
+/* width: 1600px; */
+/* margin-left: auto;
+margin-right: auto; */
 padding-top: 60px;
 padding-bottom: 60px;
 }
@@ -366,6 +395,8 @@ padding-bottom: 60px;
     display: flex;
     flex-direction: column;
     max-width: max-content;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .footer-contacts {
@@ -379,7 +410,7 @@ padding-bottom: 60px;
 
 .footer-contacts-el:last-child {
     margin-top: 10px;
-    border: 1px dashed rgb(22, 0, 100);
+    /* border: 1px dashed rgb(22, 0, 100); */
 }
 
 
@@ -391,10 +422,17 @@ padding-bottom: 60px;
 
 /* portfolio */
 
+.portfolio-all {
+    display: flex;
+    flex-direction: column;
+}
+
 .portfolio-main-block {
     display: flex;
     flex-direction: column;
-    margin-top: 95px;
+    /* margin-top: 95px; */
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .portfolio-buttons {
@@ -405,7 +443,7 @@ padding-bottom: 60px;
     margin-left: auto;
     margin-right: auto;
     justify-content: space-between;
-    padding-bottom: 16px;
+    /* padding-bottom: 16px; */
 }
 
 .filters-btn {
@@ -421,15 +459,16 @@ padding-bottom: 60px;
 .cards-netting {
     display: flex;
     flex-wrap: wrap;
-    margin: calc(-1 * var(--indent) / 2);
-    margin-top: 35px;
-    margin-bottom: 95px;
+    /* margin: calc(-1 * var(--indent) / 2); */
+    padding-top: 50px;
+    padding-bottom: 95px;
   }
   .card-netting-item {
     display: flex;
     flex-direction: column;
     flex-basis: calc((100% - var(--indent) * var(--items)) / var(--items));
     margin: calc(var(--indent) / 2);
+    border: 1px solid #EEEEEE;
   }
 .proj-names {
     font-weight: 700;

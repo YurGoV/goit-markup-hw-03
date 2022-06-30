@@ -17,9 +17,9 @@
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 
-<body>
+<body class="body">
     <header class="page-header">
-        <div class="container header-container">
+        <section class="header-container container">
             <a class="logo link" href="./index.html">Web<span style="color:#000000 ;">Studio</span></a>
             <nav class="header-nav">
                 <ul class="header-list list">
@@ -29,23 +29,25 @@
                 </ul>
             </nav>
         
-        <ul class="header-mail-tel list">
-            <li class="header-contacts"><a class="header-contacts-links link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li class="header-contacts"><a class="header-contacts-links link" href="tel:+380961111111">+38 096 111 11 11</a></li>
-        </ul>
-        </div>
+            <ul class="header-mail-tel list">
+                <li class="header-contacts"><a class="header-contacts-links link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li class="header-contacts"><a class="header-contacts-links link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+            </ul>
+        </section>
     </header>
 
 <!-- уникальный контент -->
     <main>
         <!-- шапка -->
-        <section class="solution-block">
-            <h1 class="main-title">Эффективные решения для вашего бизнеса</h1>
-            <button class="btn" type="button">Заказать услугу</button>
+        <section class="solution">
+            <div class="solution-block container">
+                <h1 class="main-title">Эффективные решения для вашего бизнеса</h1>
+                <button class="btn" type="button">Заказать услугу</button>
+            </div>
         </section>
 
         <!-- особенности -->
-        <section class="container body-sections">
+        <section class="body-sections">
             <h2 hidden>Особенности</h2>
 
             <ul class="container difference-list list">
@@ -66,19 +68,20 @@
                     <p class="difference-list-paragraph">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                 </li>
             </ul>
-        </section>
+        <!-- </section> -->
 
         <!-- чем мы занимаемся -->
-        <section class="container whatwedo body-sections">
-            <h2 class="body-headers">Чем мы занимаемся</h2>
-            <ul class="whatwedo-list list">
-                <li class="whatwedo-list-items"><a href=""><img width="370" height="294" src="./images/mainpage/chemzanimaesya1.jpg"
-                     alt="человек набирает код на компьютере"></a></li>
-                <li class="whatwedo-list-items"><a href=""><img width="370" height="294" src="./images/mainpage/chemzanimaesya2.jpg"
-                     alt="человек разрабатывает дизайн приложения для смартфона"></a></li>
-                <li class="whatwedo-list-items"><a href=""><img width="370" height="294" src="./images/mainpage/chemzanimaesya3.jpg"
-                     alt="человек подбирает на планшете цветовую гамму для дизайна"></a></li>
-            </ul>
+            <section class="container whatwedo">
+                <h2 class="body-headers">Чем мы занимаемся</h2>
+                <ul class="whatwedo-list list">
+                    <li class="whatwedo-list-items"><a href=""><img width="370" height="294" src="./images/mainpage/chemzanimaesya1.jpg"
+                        alt="человек набирает код на компьютере"></a></li>
+                    <li class="whatwedo-list-items"><a href=""><img width="370" height="294" src="./images/mainpage/chemzanimaesya2.jpg"
+                        alt="человек разрабатывает дизайн приложения для смартфона"></a></li>
+                    <li class="whatwedo-list-items"><a href=""><img width="370" height="294" src="./images/mainpage/chemzanimaesya3.jpg"
+                        alt="человек подбирает на планшете цветовую гамму для дизайна"></a></li>
+                </ul>
+            </section>
         </section>
 
         <!-- наша команда -->
